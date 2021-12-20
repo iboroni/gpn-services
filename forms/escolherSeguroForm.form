@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "values": [
+        {
+          "label": "Seguro 1",
+          "value": "seguro1"
+        },
+        {
+          "label": "Seguro 2",
+          "value": "seguro2"
+        },
+        {
+          "label": "Seguro 3",
+          "value": "seguro3"
+        }
+      ],
+      "label": "Escolher seguro",
+      "type": "select",
+      "id": "Field_0n9azzu",
+      "key": "seguro",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "escolherSeguro"
+}

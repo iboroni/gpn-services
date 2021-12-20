@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "label": "Proposta",
+      "type": "number",
+      "id": "Field_0zscxso",
+      "key": "proposta_prioritaria",
+      "description": "Escolha o ID da proposta mais prioritaria no momento",
+      "validate": {
+        "required": true,
+        "min": 1,
+        "max": 12
+      }
+    }
+  ],
+  "type": "default",
+  "id": "priorizarPropostas",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "1.2"
+}

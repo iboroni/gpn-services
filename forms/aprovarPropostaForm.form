@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "values": [
+        {
+          "label": "Sim",
+          "value": "true"
+        },
+        {
+          "label": "Nao",
+          "value": "false"
+        }
+      ],
+      "label": "Aprovar Proposta?",
+      "type": "radio",
+      "id": "Field_1oezrzv",
+      "key": "proposta_aprovada",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "aprovarProposta",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "1.2"
+}
